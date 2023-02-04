@@ -1,0 +1,10 @@
+name: siumple workflow
+on: workflow_dispatch
+jobs:
+  simple-workflow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: greeting
+        run: echo "hi sasank"
+      - name: print goodbye
+        run: echo " bye sasank"
